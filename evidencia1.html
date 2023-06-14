@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evidencia 1</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="evidencia1.html">EVIDENCIA 1</a></li>
+                    <li><a href="evidencia2.html">EVIDENCIA 2</a></li>
+                    <li><a href="evidencia3.html">EVIDENCIA 3</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Evidencia 1</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Cuadro Viviente - Mitos Griegos</h1>     
+            <p>En este trabajo hicimos una representación viviente de una Pintura u obra de la Mitologia Griega. El proceso fue un tanto complicado. Lo mas dificil fue editar en PhotoShop. La foto no estuvo tan dificil ya que la pintura que quise representar no fue muy dificil la pose. Las 2 gorras es para representar el casco de las alas que tenía Perseo. La cabeza de Medusa fue una imagen recortada de internet ya que no tengo algo que pueda representarla sin tener que editar la imagen. La espada igualmente, como no tenía una de jueguete o parecido a la mano, tuve que recortar la imagen de internet y pegarla. Me quedo con muy buen aprendizaje ya que pude usar por primera vez PhotoShop, cosa que antes no sabía y pues esto me puede servir para un futuro. Me gustó mucho la actividad porque la Mitología griega es un tema muy interesante. Muy buena la actividad.</p>
+            <a href="https://docs.google.com/document/d/12EGzapAAQkxNKQrqigSZy08039iS_46alBX0zl7Y7Qg/edit?usp=sharing" class="hero-btn red-btn" target="_blank">SABER MÁS</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <p>made with <i class="fa fa-heart-o"></i> by Max Medina</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "200px";
+        }
+
+</script> 
+    
+</body>
+</html>    
